@@ -1,0 +1,8 @@
+h1#letreiro {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+  color: rgb(168, 29, 29);
+  text-shadow: 2px 0 #050505, -2px 0 #050505, 0 2px #050505, 0 -2px #050505,
+  1px 1px #050505, -1px -1px #050505, 1px -1px #050505, -1px 1px #050505;
+}
