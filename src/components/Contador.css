@@ -1,0 +1,75 @@
+div#conteudo {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+div#tabela {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+p,h2 {
+    text-align: center;
+}
+
+h1#total {
+    text-align: center;
+    margin: 0;
+}
+
+p.caixa {
+    border: 1.4px solid black;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+img.icon-pessoa {
+    width: 130px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/*Botões de + e -*/
+div.botoes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button.icon-clickavel {
+    border-width: 0;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+button.icon-clickavel:hover {
+    transform: scale(1.1);
+}
+button img {
+    width: 50px;
+}
+
+/*Botão de resetar*/
+button.icon-resetar {
+    border-width: 0;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+button.icon-resetar:hover {
+    transform: scale(1.05);
+}
+
+button img#reset {
+    width: 40px;
+}

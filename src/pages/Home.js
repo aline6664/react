@@ -3,6 +3,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 // buscando a classe Link do arquivo react-router-dom
+import './styleGeral.css';
 
 const Home = () => { // arrow function
     // similar a "function Home"
@@ -12,10 +13,10 @@ const Home = () => { // arrow function
             <nav>
                 <ul>
                     <li>
-                        <Link to="/Atv01">Atividade 1</Link>
+                        <Link to="/Atv01">Atividade 1 - Relógio e Letreiro</Link>
                     </li>
                     <li>
-                        <Link to="/Atv02">Atividade 2</Link>
+                        <Link to="/Atv02">Atividade 2 - Contador de Pessoas</Link>
                     </li>
                 </ul>
             </nav>

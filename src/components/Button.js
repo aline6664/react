@@ -2,13 +2,13 @@ import './Button.css';
 
 function BtnVoltar() {
     return (
-        <button>Voltar</button>
+        <button className="nav">Voltar</button>
     );
 }
 
 function BtnProximo() {
     return (
-        <button>Próximo</button>
+        <button className="nav">Próximo</button>
     );
 }
 

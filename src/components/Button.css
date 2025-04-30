@@ -1,11 +1,11 @@
-button {
+button.nav {
     font-size: 20px;
     color: rgb(255, 255, 255);
-    background-color: rgb(43, 104, 235);
+    background-color: rgb(11, 85, 196);
+    transition: all 0.3s ease-in;
     margin-right: 10px;
-    transition: all 0.3s ease;
 }
-button:hover {
-    transform: scale(1.05);
+button.nav:hover {
+    transform: scale(1.03);
     cursor: pointer;
 }
