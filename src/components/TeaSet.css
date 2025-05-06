@@ -1,0 +1,8 @@
+section.teaSet {
+    background-color: rgb(229, 236, 214);
+    color: rgb(10, 65, 48);
+    padding: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    border: 1px solid rgb(164, 179, 130);
+}

@@ -1,0 +1,19 @@
+div.toDoList {
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.toDoList h1 {
+    text-align: center;
+}
+
+div.toDoList img {
+    display: block;
+    margin: 0 auto;
+}
+
+div.toDoList li {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}

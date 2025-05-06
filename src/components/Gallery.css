@@ -1,5 +1,11 @@
-img.foto {
-    width: 100px;
-    height: 120px;
-    margin: 5px;
+section.gallery {
+    width: 320px;
+    padding: 10px;
+    background-color: #f1efc6;
+    text-align: center;
+    border: 1px #a7a696 solid;
+}
+
+section.gallery img {
+    margin: 3px;
 }

@@ -1,0 +1,27 @@
+section.recipe {
+    background-color: rgb(250, 230, 164);
+    color: rgb(80, 24, 24);
+    border: 1px solid rgb(145, 104, 71);
+    padding: 15px;
+}
+
+section.recipe h1 {
+    color: rgb(160, 9, 9);
+    text-align: center;
+}
+
+section.recipe h2 {
+    text-indent: 15px;
+}
+
+section.recipe li {
+    text-align: justify;
+    text-indent: 15px;
+    margin-bottom: 0.5em;
+}
+
+section.recipe img {
+    display: block;
+    margin: auto;
+    image-rendering: pixelated;
+}

@@ -1,0 +1,22 @@
+ul.listaPessoas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.listaPessoas li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #bbbbbb;
+}
+
+ul.listaPessoas li:last-child {
+    margin-bottom: 0;
+}
+
+ul.listaPessoas p.pessoaDescricao {
+    margin-left: 20px;
+}

@@ -1,21 +1,41 @@
-import foto from '../img/Hedy_Lamarr.jpg';
+import Avatar from "./Avatar";
+import './TodoList.css';
+
+const person = {
+    name: 'Gregorio Y. Zara',
+    theme: {
+        backgroundColor: 'black',
+        color: 'pink'
+    }
+};
+
+const today = new Date();
+
+function formatDate(date) {
+    return new Intl.DateTimeFormat(
+        'en-US',
+        { weekday: 'long' }
+    ).format(date);
+}
 
 export default function TodoList() {
-    const name = "Hedy Lamarr";
     return (
-        <>
-            <h1>{name}'s Todos</h1>
-            <img 
-                src={foto}
-                alt="Hedy Lamarr"
-                className="photo"
-                width="100px"
+        <div className="toDoList" style={person.theme}>
+            <h1>{person.name}'s Todos for {formatDate(today)}</h1>
+            <Avatar
+                size={100}
+                person={{
+                    name: 'Gregorio Y. Zara',
+                    imageId:'gHPMVje'
+                }}
             />
-            <ul>
-                <li>Invent new traffic lights</li>
-                <li>Rehearse a movie scene</li>
-                <li>Improve the spectrum technology</li>
+            <ul style={{
+                color: 'hotpink'
+            }}>
+                <li>Improve the videophone</li>
+                <li>Prepare aeronautics lectures</li>
+                <li>Work on the alcohol-fuelled engine</li>
             </ul>
-        </>
+        </div>
     );
 }

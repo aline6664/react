@@ -1,0 +1,11 @@
+section.packingList {
+    color: rgb(100, 62, 4);
+    background-color: rgb(205, 212, 160);
+    padding: 10px;
+    border: 1px solid rgb(125, 145, 71);
+}
+
+section.packingList h1 {
+    color: rgb(170, 36, 3);
+    text-align: center;
+}

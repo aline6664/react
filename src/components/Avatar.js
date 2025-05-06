@@ -1,13 +1,14 @@
-import foto from '../img/Gregorio_Y_Zara.jpg';
+import { getImageUrl } from './utils';
 
-export default function Avatar() {
-    const description = "Gregorio Y. Zara"
+export default function Avatar({ person, size }) {
     return (
         <img
             className="avatar"
-            src={foto}
-            alt={description}
-            width="100px"
+            src={getImageUrl(person)}
+            alt={person.name}
+            width={size}
+            height={size}
+            style={{ borderRadius: '50%' }}
         />
     );
 }

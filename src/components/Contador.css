@@ -13,16 +13,13 @@ div#tabela {
     margin: auto;
 }
 
-p,h2 {
-    text-align: center;
-}
-
 h1#total {
     text-align: center;
     margin: 0;
 }
 
 p.caixa {
+    text-align: center;
     border: 1.4px solid black;
     width: 100px;
     height: 30px;
@@ -54,6 +51,7 @@ button.icon-clickavel {
 button.icon-clickavel:hover {
     transform: scale(1.1);
 }
+
 button img {
     width: 50px;
 }
