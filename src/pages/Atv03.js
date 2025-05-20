@@ -1,14 +1,14 @@
-import {BtnVoltar,BtnProximo} from "../components/Button";
+import {BtnVoltar,BtnProximo} from "../components/ButtonNav";
 
-import TableOfContents from "../components/TableOfContents";
-import Avatar from "../components/Avatar";
-import Gallery from "../components/Gallery";
-import Card from "../components/Card";
-import TodoList from "../components/TodoList";
-import PackingList from "../components/PackingList";
-import List from "../components/List";
-import SpicedChaiRecipe from "../components/Recipe";
-import TeaSet from "../components/TeaSet";
+import TableOfContents from "../components/atv03/TableOfContents";
+import Avatar from "../components/atv03/Avatar";
+import Gallery from "../components/atv03/Gallery";
+import Card from "../components/atv03/Card";
+import TodoList from "../components/atv03/TodoList";
+import PackingList from "../components/atv03/PackingList";
+import List from "../components/atv03/List";
+import SpicedChaiRecipe from "../components/atv03/Recipe";
+import TeaSet from "../components/atv03/TeaSet";
 
 import {Link} from "react-router-dom";
 import './styleGeral.css';

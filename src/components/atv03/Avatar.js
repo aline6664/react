@@ -1,4 +1,4 @@
-import { getImageUrl } from './utils';
+import { getImageUrl } from '../../data/utils';
 
 export default function Avatar({ person, size }) {
     return (

@@ -1,5 +1,5 @@
-import Contador from "../components/Contador";
-import {BtnVoltar,BtnProximo} from "../components/Button";
+import Contador from "../components/atv02/Contador";
+import {BtnVoltar,BtnProximo} from "../components/ButtonNav";
 import {Link} from "react-router-dom";
 import './styleGeral.css';
 

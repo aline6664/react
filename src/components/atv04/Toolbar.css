@@ -1,0 +1,15 @@
+div.toolbar {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar, .toolbar button {
+    cursor: pointer;
+}
+
+.toolbar:hover, .toolbar button:hover {
+    background-color: rgb(195, 194, 194);
+}

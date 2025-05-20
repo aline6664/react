@@ -1,10 +1,10 @@
 import { useState } from "react";
 // imgs
-import iconReset from '../img/reset-icon.png';
-import iconAdd from '../img/add-icon.png';
-import iconMinus from '../img/minus-icon.png';
-import iconHomem from '../img/homem.png';
-import iconMulher from '../img/mulher.png';
+import iconReset from '../../img/reset-icon.png';
+import iconAdd from '../../img/add-icon.png';
+import iconMinus from '../../img/minus-icon.png';
+import iconHomem from '../../img/homem.png';
+import iconMulher from '../../img/mulher.png';
 // CSS
 import './Contador.css';
 

@@ -1,4 +1,4 @@
-import './Button.css';
+import './ButtonNav.css';
 
 function BtnVoltar() {
     return (
