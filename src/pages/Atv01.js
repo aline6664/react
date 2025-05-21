@@ -2,7 +2,6 @@ import Relogio from "../components/atv01/Relogio";
 import Letreiro from "../components/atv01/Letreiro";
 import {BtnVoltar,BtnProximo} from "../components/ButtonNav";
 import {Link} from "react-router-dom";
-import './styleGeral.css';
 
 export default function Atv01() {
   return (

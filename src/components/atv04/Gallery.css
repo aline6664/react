@@ -1,0 +1,30 @@
+div.gallery {
+    background-color: rgb(206, 205, 204);
+    margin: 20px;
+    width: 900px;
+    padding: 15px;
+}
+
+.gallery h2, h3 {
+    margin: 2px;
+}
+
+.gallery p {
+    text-align: justify;
+    margin-top: 3px;
+}
+
+.gallery img {
+    display: block;
+    margin-top: 5px;
+}
+
+button.next, .previous, .show-more {
+    margin: 10px 5px 15px 0;
+    transition: transform 0.3s step;
+}
+
+button.next:hover, .previous:hover, .show-more:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}

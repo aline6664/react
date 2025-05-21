@@ -11,7 +11,6 @@ import SpicedChaiRecipe from "../components/atv03/Recipe";
 import TeaSet from "../components/atv03/TeaSet";
 
 import {Link} from "react-router-dom";
-import './styleGeral.css';
 
 export default function Atv03() {
   return (
