@@ -1,5 +1,9 @@
 import { useState } from 'react';
 
+function sendMessage(message) {
+    return <p>{message}</p>
+}
+
 export default function Form() {
     const [isSent, setIsSent] = useState(false);
     const [message, setMessage] = useState('Hi!');
