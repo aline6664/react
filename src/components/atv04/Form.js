@@ -5,18 +5,27 @@ function sendMessage(message) {
 }
 
 export default function Form() {
-    const [isSent, setIsSent] = useState(false);
+    const [to, setTo] = useState('Alice');
     const [message, setMessage] = useState('Hi!');
 
-    if (isSent) {
-        return <h1>Your message is on its way!</h1>
+    function handleSubmit(e) {
+        e.preventDefault();
+        setTimeout(() => {
+            alert(`You said ${message} to ${to}`);
+        }, 5000);
     }
+
     return (
-        <form onSubmit={(e) => {
-            e.preventDefault();
-            setIsSent(true);
-            sendMessage(message);
-        }}>
+        <form onSubmit={handleSubmit}>
+        <label>
+            To: {' '}
+        </label>
+        <select
+            value={to}
+            onChange={e => setTo(e.target.value)}>
+                <option value="Alice">Alice</option>
+                <option value="Bob">Bob</option>
+            </select>
         <textarea
             placeholder="Message"
             value={message}

@@ -4,7 +4,7 @@ import Button from "../components/atv04/Button"
 import Toolbar from "../components/atv04/Toolbar";
 import Signup from "../components/atv04/Signup";
 import Gallery from "../components/atv04/Gallery";
-import GallerySimple from "../components/atv04/GallerySimple";
+import Gallery2 from "../components/atv04/Gallery2";
 import Clock, { useTime } from "../components/atv04/Clock";
 import Form from "../components/atv04/Form";
 import Counter from "../components/atv04/Counter";
@@ -23,7 +23,7 @@ export default function Atv04() {
             />
             <Signup />
             <Gallery />
-            <GallerySimple />
+            <Gallery2 />
             <Clock time={time.toLocaleTimeString()}/>
             <Form />
             <Counter />

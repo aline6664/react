@@ -7,7 +7,7 @@ function Image() {
     );
 }
 
-export default function GallerySimple() {
+export default function Gallery2() {
     return (
         <section>
             <h1>Inspiring Sculptures</h1>
