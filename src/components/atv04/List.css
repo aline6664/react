@@ -1,0 +1,17 @@
+section.lists {
+    margin: 20px 0 20px 0;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+
+section .list, .list2, .list3, .list4 {
+    padding: 15px;
+    margin: 15px;
+    flex: 1 1 0;
+    background-color: #cecdcc;
+}
+
+.list h1, .list2 h1, .list3 h1, .list4 h1{
+    margin: 0;
+}

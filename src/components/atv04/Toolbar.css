@@ -4,12 +4,20 @@ div.toolbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    background-color: #cecdcc;
+    transition: background-color 0.2s;
 }
 
-.toolbar, .toolbar button {
+.toolbar button {
+    border-radius: 5px;
+    border: 1px solid #d1cfcf;
     cursor: pointer;
+    margin: 4px;
+    padding: 5px;
+    transition: background-color 0.2s;
 }
 
 .toolbar:hover, .toolbar button:hover {
-    background-color: rgb(195, 194, 194);
+    background-color: rgb(221, 220, 220);
 }

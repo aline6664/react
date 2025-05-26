@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './Form.css'
 
 function sendMessage(message) {
     return <p>{message}</p>
@@ -16,22 +17,24 @@ export default function Form() {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-        <label>
-            To: {' '}
-        </label>
-        <select
-            value={to}
-            onChange={e => setTo(e.target.value)}>
-                <option value="Alice">Alice</option>
-                <option value="Bob">Bob</option>
-            </select>
-        <textarea
-            placeholder="Message"
-            value={message}
-            onChange={e => setMessage(e.target.value)}
-        />
-        <button type="submit">Send</button>
-        </form>
+        <>
+            <form id="form1" onSubmit={handleSubmit}>
+                <label>
+                    To: {' '}
+                </label>
+                <select
+                    value={to}
+                    onChange={e => setTo(e.target.value)}>
+                        <option value="Alice">Alice</option>
+                        <option value="Bob">Bob</option>
+                    </select>
+                <textarea
+                    placeholder="Message"
+                    value={message}
+                    onChange={e => setMessage(e.target.value)}
+                />
+                <button type="submit">Send</button>
+            </form>
+        </>
     );
 }

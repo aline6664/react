@@ -1,0 +1,62 @@
+/* Geral */
+section.forms {
+    margin: 20px 0 20px 0;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+form input, textarea, select {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 25px;
+    width: 300px;
+    font-size: 15px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+select {
+    width: 100px;
+}
+
+input:focus, textarea:focus, select:focus {
+    background-color: rgb(240, 237, 234);
+}
+
+button[type=submit] {
+    background-color: #4676df;
+    color: rgb(240, 236, 233);
+    border: none;
+    padding: 10px;
+    width: 70px;
+    cursor: pointer;
+}
+
+#form1, #form2, #form3 {
+    padding: 15px;
+    margin: 15px;
+    flex: 1 1 0;
+    background-color: #cecdcc;
+}
+
+#form2 p, #form3 p {
+    text-align: center;
+}
+
+#form3 img {
+    width: 180px;
+    display: block;
+    margin: auto;
+}

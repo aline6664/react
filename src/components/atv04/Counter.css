@@ -1,0 +1,12 @@
+div.counter {
+    display: flex;
+}
+
+.counter h2 {
+    font-size: 25px;
+    margin: 0;
+}
+.counter button {
+    height: 25px;
+    margin-left: 15px;
+}
