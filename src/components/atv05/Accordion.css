@@ -1,0 +1,24 @@
+section.panel {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+}
+
+.panel p {
+    text-align: justify;
+}
+
+.panel button {
+    background-color: #032d4d;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 5px;
+    width: 70px;
+    transition: all 0.2s;
+}
+
+.panel button:hover {
+    cursor: pointer;
+    background-color: #0d3e64;
+    transform: scale(1.02);
+}

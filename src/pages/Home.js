@@ -22,7 +22,10 @@ const Home = () => { // arrow function
                         <Link to="/Atv03">Atividade 3 - Componentes</Link>
                     </li>
                     <li>
-                        <Link to="/Atv04">Atividade 4 - ???</Link>
+                        <Link to="/Atv04">Atividade 4 - Estado de Componentes</Link>
+                    </li>
+                    <li>
+                        <Link to="/Atv05">Atividade 5 - Estado de Componentes 2</Link>
                     </li>
                 </ul>
             </nav>

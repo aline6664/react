@@ -1,0 +1,19 @@
+.chat textarea {
+    margin: 0;
+    height: 200px;
+}
+
+.chat button {
+    background-color: #032d4d;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 7px;
+    transition: all 0.2s;
+    margin-bottom: 30px;
+}
+
+.chat button:hover {
+    cursor: pointer;
+    background-color: #0d3e64;
+    transform: scale(1.02);
+}

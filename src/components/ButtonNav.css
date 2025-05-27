@@ -1,11 +1,11 @@
 button.nav {
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(255, 255, 255);
-    background-color: rgb(11, 85, 196);
-    transition: all 0.3s ease-in;
+    background-color: rgb(4, 47, 113);
+    transition: all 0.15s;
     margin-right: 10px;
 }
 button.nav:hover {
-    transform: scale(1.03);
+    transform: scale(1.015);
     cursor: pointer;
 }
